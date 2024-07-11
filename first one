@@ -1,0 +1,14 @@
+// To calculate the factorial of a given number using loops
+#include <iostream>
+using namespace std;
+int main() {
+int n, factorial=1;
+cout<<"Enter some value of n please: "<<endl;
+cin>>n;
+for(int i=1; i<=n; i++){
+    factorial*= i;
+}
+cout<<"the factorial of "<<n<<" is "<<factorial<<endl;
+
+    return 0;
+}
